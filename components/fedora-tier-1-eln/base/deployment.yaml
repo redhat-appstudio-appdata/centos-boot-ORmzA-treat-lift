@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fedora-tier-1-eln
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/centos-boot-tenant/centos-boot/fedora-tier-1-eln@sha256:47974128b9765cf3f17be8ab3150035bf3173c5358742534deec81d896b7deb6
+      - image: quay.io/redhat-user-workloads/centos-boot-tenant/centos-boot/fedora-tier-1-eln@sha256:f54e2c3a106d047d9341333325427de702e2427bb4183bd5362d7a2b50acbbdf
         imagePullPolicy: Always
         name: container-image
         ports:
