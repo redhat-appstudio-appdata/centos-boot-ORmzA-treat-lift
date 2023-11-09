@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/centos-boot-tenant/centos-boot/fedora-tier-1-eln@sha256:23b727a41d7659c60d4c0edb824bbfba14a47e1df898948215525c15ed7db717
+      - image: quay.io/redhat-user-workloads/centos-boot-tenant/centos-boot/fedora-tier-1-eln@sha256:8d37c6ccd1bc25c3cc1c9d31e8d10b85017eff91a3fb3e7ca57277747d05914b
         name: container-image
         resources: {}
 status: {}
