@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: centos-boot-infra
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/centos-boot-tenant/centos-boot/centos-boot-infra@sha256:c331ea574f34666a9056411aea542a3c4fa5640b743aea4a5ade0fde96a08b5f
+      - image: quay.io/redhat-user-workloads/centos-boot-tenant/centos-boot/centos-boot-infra@sha256:bc12023509c5a7d05f2fb63938567591e23e08a47ce1b9eb3bb8d21fbcfab11b
         imagePullPolicy: Always
         name: container-image
         ports:
