@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: centos-boot-infra
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
